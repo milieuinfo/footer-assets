@@ -1,0 +1,21 @@
+{
+  "name": "footer-assets",
+  "version": "0.0.0",
+  "description": "footer assets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milieuinfo/footer-assets.git"
+  },
+  "scripts": {
+    "release": "np",
+    "release:prepare": "",
+    "release:testless": "np --yolo"
+  },
+  "author": "DIDM",
+  "devDependencies": {
+    "np": "3.0.4"
+  },
+  "publishConfig": {
+    "registry": "http://artifactory-pr-build.lb.cumuli.be:8081/artifactory/api/npm/acd-npm/"
+  }
+}
